@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.wrapper .content-box{
+    margin-top: 30px;
+
+}
+.wrapper .content-box h1{
+    font-size: 70px;
+    font-family:  Helvetica, sans-serif;
+    color: #2c2c2c;
+    letter-spacing: -3px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+.wrapper .content-box p{
+    font-size: 21px;
+    font-family: 'PT Sans', sans-serif;
+    width: 60%;
+
+}
+.wrapper .content-box .bg{
+    height: 350px;
+    background-image: linear-gradient(rgba(14, 143, 230, 0.356),rgba(240, 63, 32, 0.342)) , url(../images/about-bg.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+.wrapper .content-box .bg .see-more-box{
+    position: absolute;
+    bottom:3%;
+    right: 1%;
+    height:60px;
+} 
+.wrapper .content-box .bg .see-more-box a{
+    padding: 30px;
+    background-color: #fff;
+    line-height: 30px;
+    font-size: 22px;
+}
+.wrapper .content-box .bg .see-more-box a i{
+margin-left: 10px;
+margin-right: 10px;
+font-size: 30px;
+}
+.wrapper .content-box .links-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.171);
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*story section*/
+
+
+.story nav{
+    margin-left: 20px;
+    position: sticky;
+    top: 10%;
+    
+}
+.story ul{
+    display: block;
+    
+}
+.story ul li{
+    list-style: none;
+    padding: 20px;
+    background-color: #fff;
+    min-width:150px;
+    display: block;
+    border-left: 3px solid rgba(0, 0, 0, 0.39);
+    transition:.5s ;
+    transition-property: all;
+}
+.story ul .active{
+    border-left: 3px solid  rgb(7, 19, 90);
+}
+
+.story ul li a{
+    font-size: 22px;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition:.5s;
+    cursor: pointer;
+    transition-property: background-color , color;
+}
+.story ul li a:hover{
+    background-color: rgb(7, 19, 90);
+    color: #fff;
+}
+.story .col-md-8{
+    padding: 20px 0px;
+    max-width:800px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    
+}
+.story .col-md-8 div{
+    display:none;
+    height:max-content;
+    padding: 50px;
+    margin: auto;
+    border: 1px solid rgba(18, 6, 70, 0.637);
+}
+.story .col-md-8 div:nth-of-type(1){
+    display: block;
+}
+.story div p{
+    font-size: 22px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
